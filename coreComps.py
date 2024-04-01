@@ -7,6 +7,8 @@ from dash import Dash, html, dcc
 #Initialise the app
 app=Dash(__name__)
 
+server=app.server
+
 #define the layout-arrangement of the components in web browser.
 app.layout=html.Div([
     html.Div(className='row', children=[
